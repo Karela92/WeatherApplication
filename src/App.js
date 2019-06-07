@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import rootReducer from './store/reducers'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import WeatherContainer from './components/Weather/WeatherContainer'
+import Title from './components/Title/Title'
+
+import './App.scss';
+
+const store = createStore(rootReducer);
+
+export default class App extends Component {
+
+  render() {
+    return (
+      <Provider store={ store }>
+        <div className="App">
+          <Title />
+          <WeatherContainer />
+        </div>
+      </Provider>
+    );
+  }
 }
-
-export default App;

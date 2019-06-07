@@ -1,0 +1,702 @@
+[
+  {
+    "coord": {
+      "lon": 37.62,
+      "lat": 55.75
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 23.48,
+      "pressure": 1025,
+      "humidity": 35,
+      "temp_min": 23,
+      "temp_max": 24
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 4,
+      "deg": 210
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1559728409,
+    "sys": {
+      "type": 1,
+      "id": 9029,
+      "message": 0.0058,
+      "country": "RU",
+      "sunrise": 1559695801,
+      "sunset": 1559757969
+    },
+    "timezone": 10800,
+    "id": 524901,
+    "name": "Moscow",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -0.13,
+      "lat": 51.51
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 16.35,
+      "pressure": 1006,
+      "humidity": 51,
+      "temp_min": 14.44,
+      "temp_max": 18.33
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 4.6,
+      "deg": 230
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1559729465,
+    "sys": {
+      "type": 1,
+      "id": 1414,
+      "message": 0.0109,
+      "country": "GB",
+      "sunrise": 1559706396,
+      "sunset": 1559765497
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -3.7,
+      "lat": 40.42
+    },
+    "weather": [
+      {
+        "id": 801,
+        "main": "Clouds",
+        "description": "few clouds",
+        "icon": "02d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 16.89,
+      "pressure": 1013,
+      "humidity": 36,
+      "temp_min": 13.89,
+      "temp_max": 18.33
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 9.3,
+      "deg": 280
+    },
+    "clouds": {
+      "all": 20
+    },
+    "dt": 1559730738,
+    "sys": {
+      "type": 1,
+      "id": 6443,
+      "message": 0.0061,
+      "country": "ES",
+      "sunrise": 1559709937,
+      "sunset": 1559763669
+    },
+    "timezone": 7200,
+    "id": 3117735,
+    "name": "Madrid",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 13.39,
+      "lat": 52.52
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 32.38,
+      "pressure": 1009,
+      "humidity": 27,
+      "temp_min": 31,
+      "temp_max": 33.89
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 5.7,
+      "deg": 140
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1559730691,
+    "sys": {
+      "type": 1,
+      "id": 1275,
+      "message": 0.0061,
+      "country": "DE",
+      "sunrise": 1559702823,
+      "sunset": 1559762579
+    },
+    "timezone": 7200,
+    "id": 2950159,
+    "name": "Berlin",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 30.52,
+      "lat": 50.45
+    },
+    "weather": [
+      {
+        "id": 801,
+        "main": "Clouds",
+        "description": "few clouds",
+        "icon": "02d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 25.15,
+      "pressure": 1019,
+      "humidity": 64,
+      "temp_min": 24,
+      "temp_max": 26.67
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 5,
+      "deg": 110
+    },
+    "clouds": {
+      "all": 20
+    },
+    "dt": 1559731634,
+    "sys": {
+      "type": 1,
+      "id": 8903,
+      "message": 0.0125,
+      "country": "UA",
+      "sunrise": 1559699367,
+      "sunset": 1559757812
+    },
+    "timezone": 10800,
+    "id": 703448,
+    "name": "Kyiv",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 27.56,
+      "lat": 53.9
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 27,
+      "pressure": 1019,
+      "humidity": 51,
+      "temp_min": 27,
+      "temp_max": 27
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 5,
+      "deg": 140,
+      "gust": 9
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1559731660,
+    "sys": {
+      "type": 1,
+      "id": 8939,
+      "message": 0.0056,
+      "country": "BY",
+      "sunrise": 1559698940,
+      "sunset": 1559759660
+    },
+    "timezone": 10800,
+    "id": 625144,
+    "name": "Minsk",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 12.48,
+      "lat": 41.89
+    },
+    "weather": [
+      {
+        "id": 801,
+        "main": "Clouds",
+        "description": "few clouds",
+        "icon": "02d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 24.14,
+      "pressure": 1013,
+      "humidity": 57,
+      "temp_min": 22.22,
+      "temp_max": 26.11
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.1
+    },
+    "clouds": {
+      "all": 20
+    },
+    "dt": 1559732351,
+    "sys": {
+      "type": 1,
+      "id": 6792,
+      "message": 0.0073,
+      "country": "IT",
+      "sunrise": 1559705769,
+      "sunset": 1559760070
+    },
+    "timezone": 7200,
+    "id": 6539761,
+    "name": "Rome",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -9.14,
+      "lat": 38.71
+    },
+    "weather": [
+      {
+        "id": 802,
+        "main": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 17.6,
+      "pressure": 1019,
+      "humidity": 52,
+      "temp_min": 16.67,
+      "temp_max": 19
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 4.6,
+      "deg": 300
+    },
+    "clouds": {
+      "all": 40
+    },
+    "dt": 1559732575,
+    "sys": {
+      "type": 1,
+      "id": 6901,
+      "message": 0.0067,
+      "country": "PT",
+      "sunrise": 1559711557,
+      "sunset": 1559764660
+    },
+    "timezone": 3600,
+    "id": 2267057,
+    "name": "Lisbon",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 4.35,
+      "lat": 50.85
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 16.34,
+      "pressure": 1009,
+      "humidity": 87,
+      "temp_min": 14.44,
+      "temp_max": 17.78
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.6,
+      "deg": 170
+    },
+    "clouds": {
+      "all": 40
+    },
+    "dt": 1559732703,
+    "sys": {
+      "type": 1,
+      "id": 1227,
+      "message": 0.009,
+      "country": "BE",
+      "sunrise": 1559705525,
+      "sunset": 1559764217
+    },
+    "timezone": 7200,
+    "id": 2800866,
+    "name": "Brussels",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 2.35,
+      "lat": 48.86
+    },
+    "weather": [
+      {
+        "id": 501,
+        "main": "Rain",
+        "description": "moderate rain",
+        "icon": "10d"
+      },
+      {
+        "id": 701,
+        "main": "Mist",
+        "description": "mist",
+        "icon": "50d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 14.67,
+      "pressure": 1008,
+      "humidity": 82,
+      "temp_min": 13.89,
+      "temp_max": 15.56
+    },
+    "visibility": 5000,
+    "wind": {
+      "speed": 2.1,
+      "deg": 300
+    },
+    "rain": {
+      "1h": 2.54
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1559732480,
+    "sys": {
+      "type": 1,
+      "id": 6540,
+      "message": 0.0063,
+      "country": "FR",
+      "sunrise": 1559706578,
+      "sunset": 1559764124
+    },
+    "timezone": 7200,
+    "id": 2988507,
+    "name": "Paris",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": -86.97,
+      "lat": 34.8
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 22.04,
+      "pressure": 1015,
+      "humidity": 78,
+      "temp_min": 20,
+      "temp_max": 24
+    },
+    "visibility": 16093,
+    "wind": {
+      "speed": 2.6,
+      "deg": 130
+    },
+    "clouds": {
+      "all": 1
+    },
+    "dt": 1559732805,
+    "sys": {
+      "type": 1,
+      "id": 4854,
+      "message": 0.0108,
+      "country": "US",
+      "sunrise": 1559730891,
+      "sunset": 1559782690
+    },
+    "timezone": -18000,
+    "id": 4830668,
+    "name": "Athens",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 21.01,
+      "lat": 52.23
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 29.02,
+      "pressure": 1013,
+      "humidity": 45,
+      "temp_min": 27,
+      "temp_max": 31.67
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 6.7,
+      "deg": 80
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1559732817,
+    "sys": {
+      "type": 1,
+      "id": 1713,
+      "message": 0.0059,
+      "country": "PL",
+      "sunrise": 1559701092,
+      "sunset": 1559760652
+    },
+    "timezone": 7200,
+    "id": 756135,
+    "name": "Warsaw",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 12.57,
+      "lat": 55.69
+    },
+    "weather": [
+      {
+        "id": 802,
+        "main": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 25.16,
+      "pressure": 1010,
+      "humidity": 60,
+      "temp_min": 21,
+      "temp_max": 28
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 4.1,
+      "deg": 150
+    },
+    "clouds": {
+      "all": 41
+    },
+    "dt": 1559732596,
+    "sys": {
+      "type": 1,
+      "id": 1575,
+      "message": 0.0068,
+      "country": "DK",
+      "sunrise": 1559701835,
+      "sunset": 1559763961
+    },
+    "timezone": 7200,
+    "id": 2618425,
+    "name": "Copenhagen",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 24.11,
+      "lat": 56.95
+    },
+    "weather": [
+      {
+        "id": 801,
+        "main": "Clouds",
+        "description": "few clouds",
+        "icon": "02d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 28.33,
+      "pressure": 1017,
+      "humidity": 39,
+      "temp_min": 27.78,
+      "temp_max": 29
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 3.6,
+      "deg": 140
+    },
+    "clouds": {
+      "all": 20
+    },
+    "dt": 1559732568,
+    "sys": {
+      "type": 1,
+      "id": 1876,
+      "message": 0.0065,
+      "country": "LV",
+      "sunrise": 1559698513,
+      "sunset": 1559761743
+    },
+    "timezone": 10800,
+    "id": 456172,
+    "name": "Riga",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 10.74,
+      "lat": 59.91
+    },
+    "weather": [
+      {
+        "id": 521,
+        "main": "Rain",
+        "description": "shower rain",
+        "icon": "09d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 12.63,
+      "pressure": 1011,
+      "humidity": 93,
+      "temp_min": 10,
+      "temp_max": 15
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.6,
+      "deg": 10
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1559732634,
+    "sys": {
+      "type": 1,
+      "id": 1624,
+      "message": 0.006,
+      "country": "NO",
+      "sunrise": 1559700147,
+      "sunset": 1559766527
+    },
+    "timezone": 7200,
+    "id": 3143244,
+    "name": "Oslo",
+    "cod": 200
+  },
+  {
+    "coord": {
+      "lon": 4.89,
+      "lat": 52.37
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 16.83,
+      "pressure": 1008,
+      "humidity": 93,
+      "temp_min": 15,
+      "temp_max": 18.89
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 3.6,
+      "deg": 190
+    },
+    "rain": {
+      "1h": 0.32
+    },
+    "clouds": {
+      "all": 40
+    },
+    "dt": 1559732622,
+    "sys": {
+      "type": 1,
+      "id": 1524,
+      "message": 0.0097,
+      "country": "NL",
+      "sunrise": 1559704913,
+      "sunset": 1559764570
+    },
+    "timezone": 7200,
+    "id": 2759794,
+    "name": "Amsterdam",
+    "cod": 200
+  }
+]

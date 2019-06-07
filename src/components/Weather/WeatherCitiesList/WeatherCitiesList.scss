@@ -1,0 +1,36 @@
+.citiesList {
+    width: 50%;
+    background-color: white;
+    padding: 5px 0 5px 15px;
+    border-radius: 11px;
+  &__city {
+    width: 23%;
+    display: inline-flex;
+    margin-right: 2%;
+    justify-content: space-between;
+    position: relative;
+    &:hover .citiesList__cancel {
+      display: inline-block;
+    }
+    & span {
+      cursor: pointer;
+      margin-bottom: 16px;
+      display: block;
+      color: #007bff;
+      text-decoration: none;
+      background-color: transparent;
+      &:hover {
+        color: #0056b3;
+      }
+    }
+  }
+  &__cancel {
+    display: none;
+    position: absolute;
+    top: 0;
+    font-size: 13px;
+    right: 10%;
+    color: black;
+    cursor: pointer;
+  }
+}
