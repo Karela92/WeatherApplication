@@ -10,6 +10,8 @@ import './App.scss';
 
 const store = createStore(rootReducer);
 
+store.subscribe(() => localStorage.setItem('popularCities', JSON.stringify(store.getState().weather.citiesList)) );
+
 export default class App extends Component {
 
   render() {

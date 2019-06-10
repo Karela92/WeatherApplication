@@ -7,7 +7,7 @@ import citiesList from '../../../src/cities.json';
 const initialState = {
   currentCity: '',
   errorMessage: '',
-  citiesList
+  citiesList: localStorage.getItem('popularCities') ? JSON.parse(localStorage.getItem('popularCities')) : citiesList
 };
 
 export default (state = initialState, action) => {
