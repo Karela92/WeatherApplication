@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4a3017b-1ebe-4c5f-ab17-7938b009cd11" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title/Title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/Title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/WeatherCitiesList/WeatherCitiesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/WeatherCitiesList/WeatherCitiesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/WeatherCitiesList/WeatherCitiesList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/WeatherCitiesList/WeatherCitiesList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/WeatherContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/WeatherContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/WeatherContainer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/WeatherContainer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/WeatherForm/Button/AddButton/AddButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/WeatherForm/Button/AddButton/AddButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/WeatherForm/Button/Submit/Submit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/WeatherForm/Button/Submit/Submit.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/WeatherForm/WeatherForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/WeatherForm/WeatherForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/WeatherForm/WeatherForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/WeatherForm/WeatherForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/WeatherView/WeatherView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/WeatherView/WeatherView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/WeatherView/WeatherView.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/WeatherView/WeatherView.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/weather/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/weather/actions.js" afterDir="false" />
-    </list>
+    <list default="true" id="e4a3017b-1ebe-4c5f-ab17-7938b009cd11" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -207,20 +188,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherView.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Weather/WeatherView/WeatherView.scss">
+      <file leaf-file-name="FormInput.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Weather/WeatherForm/FormInput/FormInput.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="8" selection-start-line="1" selection-start-column="2" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="140">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormInput.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Weather/WeatherForm/FormInput/FormInput.scss">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="640">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../JetRubyTask/audioplayer/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -360,7 +355,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
@@ -414,6 +409,7 @@
     <property name="node.js.selected.package.eslint" value="G:\Kurs\Portfolio\Dedkov\weather\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -455,12 +451,12 @@
       <workItem from="1559900183196" duration="16510000" />
       <workItem from="1560009255108" duration="2982000" />
       <workItem from="1560078178762" duration="7760000" />
-      <workItem from="1560151727287" duration="3587000" />
+      <workItem from="1560151727287" duration="4295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95313000" />
+    <option name="totallyTimeSpent" value="96021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -515,22 +511,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css" />
-    <entry file="file://$PROJECT_DIR$/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Weather/WeatherForm/Submit/Submit.js" />
     <entry file="file://$PROJECT_DIR$/../../JetRubyTask/audioplayer/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -784,8 +764,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Weather/WeatherForm/FormInput/FormInput.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="140">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../JetRubyTask/audioplayer/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
