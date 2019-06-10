@@ -1,13 +1,13 @@
 button {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
-    padding: .375rem .75rem;
-    border-radius: .25rem;
-    border: 1px solid transparent;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
   &:disabled {
     background-color: #DDDDDD;
   }

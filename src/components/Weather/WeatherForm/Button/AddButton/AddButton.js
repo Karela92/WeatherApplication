@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-// import './Submit.css';
-
 export default class AddButton extends Component {
 
   static defaultProps = {

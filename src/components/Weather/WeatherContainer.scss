@@ -1,4 +1,11 @@
 .container {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
+  h3 {
+    margin-top: 5px;
+  }
+}
+
+.main {
+  margin-top: 70px;
 }

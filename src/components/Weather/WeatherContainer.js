@@ -33,12 +33,13 @@ class WeatherContainer extends Component {
       , citiesList, handleCityChange, getSelectedCity, updatedCitiesList
     } = this.props;
     return(
-      <div>
+      <div className='main'>
         <WeatherForm
           getWeatherData={ getWeatherData }
           currentCity={ currentCity }
           handleCityChange={ handleCityChange }
           citiesList={ citiesList }
+          currentWeatherCity={ weatherInfo && weatherInfo.name ? weatherInfo.name : '' }
         />
         <div className='container'>
           <WeatherCitiesList

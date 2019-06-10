@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import './WeatherCitiesList.scss';
 
 export default class WeatherCitiesList extends Component {
+
+  static propTypes = {
+    citiesList: PropTypes.array.isRequired,
+    updatedCitiesList: PropTypes.func.isRequired,
+    getSelectedCity: PropTypes.func.isRequired,
+  };
 
   getSelectedCity(city) {
     this.props.getSelectedCity(city);

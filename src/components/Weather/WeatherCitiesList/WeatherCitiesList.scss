@@ -1,8 +1,8 @@
 .citiesList {
-    width: 50%;
-    background-color: white;
-    padding: 5px 0 5px 15px;
-    border-radius: 11px;
+  width: 50%;
+  background-color: white;
+  padding: 5px 0 5px 15px;
+  border-radius: 11px;
   &__city {
     width: 23%;
     display: inline-flex;
@@ -28,7 +28,8 @@
     display: none;
     position: absolute;
     top: 0;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: bold;
     right: 10%;
     color: black;
     cursor: pointer;

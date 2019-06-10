@@ -1,9 +1,22 @@
 body {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: #edeef0;
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  background: url('http://cdn.24.co.za/files/Cms/General/d/5231/197f6493f1674f8696ef646b340711ba.jpg') center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
 }
 
 .App {
-    padding-top: 15px;
+  padding-top: 15px;
 }

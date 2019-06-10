@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import './WeatherView.scss';
 
 export default class WeatherView extends Component {
+
+  static propTypes = {
+    weatherInfo: PropTypes.object,
+    error: PropTypes.string,
+  };
 
   getErrorMessage() {
     return(
@@ -21,7 +27,7 @@ export default class WeatherView extends Component {
       <div className='container__weatherView'>
         {
           error ?
-            this.getErrorMessage(error) :
+            this.getErrorMessage() :
             <div>
               <h3>
                 { weatherInfo.name } :
