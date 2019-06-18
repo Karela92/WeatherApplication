@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import rootReducer from './store/reducers'
+import rootReducer from '../store/reducers'
 
-import WeatherContainer from './components/Weather/WeatherContainer'
-import Title from './components/Title/Title'
+import WeatherContainer from './Weather/WeatherContainer'
+import Title from './Title/Title'
 
 import './App.scss';
 

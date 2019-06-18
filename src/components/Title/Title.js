@@ -6,7 +6,7 @@ export default class Title extends Component {
 
   render() {
     return (
-      <h1>
+      <h1 className='weatherTitle'>
         Weather Application
       </h1>
     );

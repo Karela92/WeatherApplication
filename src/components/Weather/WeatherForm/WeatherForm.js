@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Tooltip from '../../ui/Tooltip/Tooltip'
-import FormInput from './FormInput/FormInput';
-import Submit from './Button/Submit/Submit';
-import AddButton from './Button/AddButton/AddButton';
+import FormInput from '../../ui/FormInput/FormInput';
+import Submit from '../../ui/Button/Submit/Submit';
+import AddButton from '../../ui/Button/AddButton/AddButton';
 
 import './WeatherForm.scss';
 

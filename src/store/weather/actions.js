@@ -1,13 +1,13 @@
-export const  CURRENT_CITY_NAME = 'CITY_NAME',
+export const  SET_CURRENT_CITY_NAME = 'CURRENT_CITY_NAME',
               WEATHER_RESPONSE_SUCCESS = 'WEATHER_RESPONSE_SUCCESS',
               WEATHER_RESPONSE_FAILURE = 'WEATHER_RESPONSE_FAILURE',
-              GET_SELECTED_CITY = 'GET_SELECTED_CITY',
-              UPDATED_CITIES_LIST = 'UPDATED_CITIES_LIST',
-              PUT_SELECTED_CITY = 'PUT_SELECTED_CITY';
+              SET_SELECTED_CITY = 'SET_SELECTED_CITY',
+              UPDATE_CITIES_LIST = 'UPDATE_CITIES_LIST',
+              PUSH_TO_CITIES_LIST = 'PUSH_TO_CITIES_LIST';
 
 export const handleCityChange = cityName => {
   return {
-    type: CURRENT_CITY_NAME,
+    type: SET_CURRENT_CITY_NAME,
     payload: cityName,
   }
 };
@@ -20,7 +20,7 @@ export const getWeatherData = (weatherFromApi, needPuToCities) => {
     }
   } else if (weatherFromApi.cod === 200 && needPuToCities) {
     return {
-      type: PUT_SELECTED_CITY,
+      type: PUSH_TO_CITIES_LIST,
       payload: weatherFromApi,
     }
   } else {
@@ -33,14 +33,14 @@ export const getWeatherData = (weatherFromApi, needPuToCities) => {
 
 export const getSelectedCity = city => {
   return {
-    type: GET_SELECTED_CITY,
+    type: SET_SELECTED_CITY,
     payload: city,
   }
 };
 
 export const updatedCitiesList = newList => {
   return {
-    type: UPDATED_CITIES_LIST,
+    type: UPDATE_CITIES_LIST,
     payload: newList,
   }
 };

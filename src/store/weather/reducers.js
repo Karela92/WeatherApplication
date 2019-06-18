@@ -1,6 +1,6 @@
 import {
-  CURRENT_CITY_NAME, WEATHER_RESPONSE_SUCCESS, WEATHER_RESPONSE_FAILURE,
-  GET_SELECTED_CITY,PUT_SELECTED_CITY, UPDATED_CITIES_LIST
+  SET_CURRENT_CITY_NAME, WEATHER_RESPONSE_SUCCESS, WEATHER_RESPONSE_FAILURE,
+  SET_SELECTED_CITY,PUSH_TO_CITIES_LIST, UPDATE_CITIES_LIST
 } from './actions';
 import citiesList from '../../../src/cities.json';
 
@@ -12,7 +12,7 @@ const initialState = {
 
 export default (state = initialState, action) => {
   switch(action.type) {
-    case CURRENT_CITY_NAME:
+    case SET_CURRENT_CITY_NAME:
       return { ...state, currentCity: action.payload };
 
     case WEATHER_RESPONSE_SUCCESS:
@@ -22,7 +22,7 @@ export default (state = initialState, action) => {
         errorMessage: ''
       };
 
-    case PUT_SELECTED_CITY:
+    case PUSH_TO_CITIES_LIST:
       return {
         ...state,
         weatherInfo: action.payload,
@@ -30,7 +30,7 @@ export default (state = initialState, action) => {
         citiesList: [ action.payload, ...state.citiesList ]
       };
 
-    case UPDATED_CITIES_LIST:
+    case UPDATE_CITIES_LIST:
       return {
         ...state,
         citiesList: [ ...action.payload ]
@@ -39,7 +39,7 @@ export default (state = initialState, action) => {
     case WEATHER_RESPONSE_FAILURE:
       return { ...state, errorMessage: action.payload };
 
-    case GET_SELECTED_CITY:
+    case SET_SELECTED_CITY:
       return {
         ...state,
         currentCity: action.payload.name,
