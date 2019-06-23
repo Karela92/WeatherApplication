@@ -13,7 +13,7 @@ export default class AddButton extends Component {
         onClick={ handleAddNewCity }
         disabled={ disabled }
       >
-        <span className='qq'> + </span>
+        <span> + </span>
       </button>
     );
   }
